@@ -7,12 +7,15 @@ body {
     padding: 1rem 2rem;
     font-size: 0.9rem;
     text-transform: uppercase;
-}
 
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}}
+  
 .logo {
-    font-size: 2rem;
-    font-weight: bold;
-    font-family: 'Georgia', serif;
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .nav a {
@@ -25,34 +28,8 @@ body {
 .my_class_0041 {
     font-size: 1rem;
 }
-
-.text-block {
-    flex: 1;
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.2;
-}
-
 .section-bouton {
     padding: 2rem;
-}
-
-.btn-acheter {
-  padding: 15px 30px;
-  background: none;
-  border: 2px solid #111;
-  font-size: 1rem;
-  cursor: pointer;
-  font-weight: bold;
-  border-radius: 50px;
-  transition: all 0.3s ease;
-}
-
-.btn-acheter:hover {
-  background: #111;
-  color: white;
-}
-    
 }
 
 .idea-section {
@@ -129,28 +106,6 @@ body {
   margin-top: 2rem;
 }
 
-
-.text-block {
-  flex: 1;
-  max-width: 50%;
-  padding-right: 2rem;
-}
-
-.text-block h1 {
-  font-size: 2rem;
-  line-height: 1.5;
-  font-weight: 500;
-}
-
-.image-block {
-  display: flex;
-  gap: 1rem;
-}
-
-.image-block img {
-  max-width: 250px;
-  border-radius: 0.5rem;
-}
 .trait-separateur {
   border: none;
   border-top: 1px solid #333; 
@@ -261,7 +216,7 @@ body {
   justify-content: space-between;
   padding: 60px 80px;
   gap: 60px;
-  background-color: #644536; /
+  background-color: #644536;
   color: white;
 }
 
@@ -279,13 +234,6 @@ body {
 .contenu-droit {
   flex: 1;
   max-width: 550px;
-}
-
-.titre-fraunces {
-  font-family: 'Fraunces', serif;
-  font-size: 3.5rem;
-  margin-bottom: 20px;
-  line-height: 1.1;
 }
 
 .contenu-droit p {
@@ -344,29 +292,6 @@ body {
   text-align: center;
 }
 
-.carte-savon {
-  display: inline-block;
-  vertical-align: top;
-  margin: 20px;
-  width: 300px;
-}
-
-.carte-savon img {
-  width: 100%;
-  height: 250px; 
-  object-fit: cover; 
-  display: block;
-}
-
-.titre-savon {
-  font-family: 'Fraunces', serif;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-top: 15px;
-  color: black;
-}
-
-
 .bouton-savons {
   display: inline-block;
   margin: 40px auto 0;
@@ -399,11 +324,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 60px 80px;
-  background-color: #f0eeeae; 
+
 }
 
 .hero-text h1 {
-  font-size: 6rem; /* ← Taille très grande */
+  font-size: 6rem; 
   line-height: 1.1;
   font-family: 'Inter', sans-serif;
   margin: 0;
@@ -444,4 +369,57 @@ nav a:hover {
 .btn-secondaire:active {
   background-color: #222;
   transform: scale(0.98);
+}
+
+.section-texte {
+  font-size: 3rem;         
+  font-family: 'Fraunces', serif; 
+  text-align: le;      
+  margin: 2rem 0;          
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; 
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.produit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.produit img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+
+.produit h2 {
+  font-family: 'YourFont', serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 15px;
 }
